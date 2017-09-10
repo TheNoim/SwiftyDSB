@@ -1,0 +1,6 @@
+framework module SwiftyDSB {
+  umbrella header "SwiftyDSB-umbrella.h"
+
+  export *
+  module * { export * }
+}

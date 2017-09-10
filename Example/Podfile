@@ -1,6 +1,0 @@
-use_frameworks!
-target 'SwiftyDSB_Tests' do
-  pod 'SwiftyDSB', :path => '../'
-  
-  
-end

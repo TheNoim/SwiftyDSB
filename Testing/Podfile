@@ -1,0 +1,12 @@
+def swift4_overrides
+  pod "GzipSwift", :git => "https://github.com/1024jp/GzipSwift.git", :branch => "swift4"
+  pod "SwiftyJSON", :git => "https://github.com/SwiftyJSON/SwiftyJSON.git"
+end
+
+use_frameworks!
+target 'SwiftyDSB_Tests' do
+  swift4_overrides  
+  pod 'SwiftyDSB', :path => '../'
+  
+  
+end

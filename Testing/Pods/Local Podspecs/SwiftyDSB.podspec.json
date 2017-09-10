@@ -1,0 +1,40 @@
+{
+  "name": "SwiftyDSB",
+  "version": "0.1.0",
+  "summary": "Fetch data from dsbmobile",
+  "description": "Do you ever wanted to fetch from the official private dsbmobile api? Now you can :)",
+  "homepage": "https://github.com/TheNoim/SwiftyDSB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TheNoim": "nilsbergmann@noim.io"
+  },
+  "source": {
+    "git": "https://github.com/TheNoim/SwiftyDSB.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/EpicNilo",
+  "platforms": {
+    "ios": "10.0",
+    "watchos": "2.0",
+    "osx": "10.11",
+    "tvos": "9.0"
+  },
+  "source_files": "SwiftyDSB/Classes/**/*",
+  "dependencies": {
+    "PromiseKit": [
+      "~> 4.4"
+    ],
+    "PromiseKit/Alamofire": [
+
+    ],
+    "GzipSwift": [
+
+    ],
+    "SwiftyJSON": [
+
+    ]
+  }
+}
