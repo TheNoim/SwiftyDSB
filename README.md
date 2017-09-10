@@ -11,3 +11,12 @@ If you need to fetch something from the dsb use my javascript module -> [Link](h
 
 ### Installation
 ETA soon :)
+
+### Note
+You need to override the dependencies
+```swift
+def swift4_overrides
+  pod "GzipSwift", :git => "https://github.com/1024jp/GzipSwift.git", :branch => "swift4"
+  pod "SwiftyJSON", :git => "https://github.com/SwiftyJSON/SwiftyJSON.git"
+end
+```

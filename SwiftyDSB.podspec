@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyDSB'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Fetch data from dsbmobile'
 
   s.description      = 'Do you ever wanted to fetch from the official private dsbmobile api? Now you can :)'
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
 
   s.source_files = 'SwiftyDSB/Classes/**/*'
+  s.exclude_files = 'Testing/**/*', 'docs/**/*'
   
   s.dependency 'PromiseKit', '~> 4.4'
   s.dependency 'PromiseKit/Alamofire'
